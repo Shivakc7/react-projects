@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './components/login/Login';
 
 function App() {
+  const a = 4
+  const b = 10
   return (
     <div className="App">
-      <header className="App-header">
+      <Login />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -15,9 +19,16 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn rEact
         </a>
-      </header>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Orange</li>
+        </ul>
+        <h1 data-testid='mytestid' >Hello</h1>
+        <span title='sum' >{a + b}</span>
+      </header> */}
     </div>
   );
 }
